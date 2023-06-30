@@ -1,6 +1,7 @@
 # This example requires the 'message_content' privileged intents
 
-import osimport nextcord
+import os
+import nextcord
 from nextcord.ext import commands
 bot = commands.Bot(command_prefix="++", intents=nextcord.Intents.all())
 
